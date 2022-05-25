@@ -30,3 +30,10 @@ Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrund
 
 ![](<.gitbook/assets/image (37).png>)
 
+{% hint style="info" %}
+Der Standort selber ist fertig konfiguriert, der grüne Fortschrittsbalken "Creation in progress.../Die Erstellung wird ausgeführt..." gibt erst auf, wenn dem Standort auch Hosts/Server zugeordnet werden.  Diesen Vorgang wollen wir uns nun in der Theorie anschauen (aus Zeitgründen können wir ihn im Rahmen des Labs nich praktisch durchführen).
+{% endhint %}
+
+9\. Durch Selektieren des (blauen) "Next/Weiter"-Buttons gelangt man auf die "Attach Hosts.../Hosts an Ihren Standort anhängen..."-Seite
+
+10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden,
