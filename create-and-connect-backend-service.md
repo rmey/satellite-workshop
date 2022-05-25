@@ -67,7 +67,7 @@ Das Deployment ist abgeschlossen, sobald die Applikation in einem Pod läuft und
 {% endhint %}
 
 \
-![](<.gitbook/assets/image (38).png>)
+![](<.gitbook/assets/image (38) (1).png>)
 
 16\. Herzlichen Glückwunsch! Sie haben Ihre erste Applikation in einem Openshift Cluster auf IBM Cloud Satellite zum Laufen gebracht! \
 ![](<.gitbook/assets/image (44) (1).png>)

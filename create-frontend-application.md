@@ -1,8 +1,12 @@
+---
+layout: editorial
+---
+
 # 3. Arbeiten mit einer Satellite Lokation
 
 
 
-In der vorherigen Übungen haben wir eine neu Satellite Lokation erstellt, nun wollen wir mit einer existierenden Satellite Lokation arbeiten bzw. die Möglichkeiten kennenlernen diese zu verwalten.
+In der vorherigen Übungen haben wir eine neu Satellite Lokation erstellt, nun wollen wir mit einer existierenden Satellite Lokation arbeiten bzw. die Möglichkeiten kennenlernen diese zu verwalten und zeigen wie ein neuer OpenShift Cluster für IBM Cloud Satellite angelegt wird.
 
 1. Im Cloud Menü öffnen wir die IBM Cloud Satellite Lokationen, es werden mehrere Lokationen angezeigt:\
    ![](<.gitbook/assets/image (50).png>)\
@@ -45,12 +49,25 @@ Wir navigieren zu dem Cluster Menu von IBM Cloud Satellite:\
 
 8\. In der Liste sehen wir wieder die existierenden Cluster. Dort klicken wir auf Create Cluster:
 
-![](<.gitbook/assets/image (36).png>)
+![](<.gitbook/assets/image (37).png>)
 
 9\. Der Dialog für das anlegen eines Clusters erscheint, und wir können nun auswählen, ob wir den OpenShift Cluster in der IBM Cloud (VPC oder Classics Network) oder in einer Satellite Lokation anlegen wollen. Wir wollen die Konfiguration für einen Satellite Cluster durchführen.\
-![](<.gitbook/assets/image (37).png>)\
+![](<.gitbook/assets/image (38).png>)\
 \
-Dazu wählen wir unsere Lokation und den Typ der Worker Nodes aus, welche dann aus der Liste der verfügbaren Hosts der Lokation zugwiesen werden sollen.
+10\. Dazu wählen wir unsere Lokation und den Typ der Worker Nodes aus, welche dann aus der Liste der verfügbaren Hosts der Lokation zugwiesen werden sollen.\
+![](<.gitbook/assets/image (36).png>)
+
+
+
+
+
+
+
+
+
+
+
+
 
 &#x20;\
 \
