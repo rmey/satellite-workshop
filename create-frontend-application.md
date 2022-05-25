@@ -1,8 +1,4 @@
----
-layout: editorial
----
-
-# 3. Arbeiten mit einer Satellite Lokation
+# 3. Arbeiten mit einer Satellite Lokation und Deployment eigener OpenShift Cluster
 
 
 
