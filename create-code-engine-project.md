@@ -16,7 +16,7 @@ Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrund
 
 5\. Für diesen Workshop ist bereits (mindestens) ein Standort "sat-lab-location" vorkonfiguriert. Diesen Standort werden wir in einem späteren Lab benutzen.  Neben dem Lokationsnamen sind in der Standortseite wichtige weitere Informationen bzgl. eines Standorts aufgeführt (Zustand der Lokation, IBM Cloud RZ über das der Standort betankt und verwaltet wird, Ressourcengruppe, Anzahl der in der Lokation verfügbaren Hosts  und Erstellungsdatum).
 
-![](<.gitbook/assets/image (38).png>)
+![](<.gitbook/assets/image (38) (1).png>)
 
 6\. Auf der Standorte-Seite den (blauen) "Create location/Standort erstellen" Button drücken. Auf der Vorlagenseite finden sich einige vordefinierte Templates für unterschiedliche Standort-Zielinfrastrukturen, z.B. gängige Hyperscaler (AWS, Azure, GCP).
 
@@ -36,4 +36,4 @@ Der Standort selber ist fertig konfiguriert, der grüne Fortschrittsbalken "Crea
 
 9\. Durch Selektieren des (blauen) "Next/Weiter"-Buttons gelangt man auf die "Attach Hosts.../Hosts an Ihren Standort anhängen..."-Seite
 
-10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden,
+10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden.\
