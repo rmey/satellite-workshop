@@ -2,7 +2,7 @@
 
 * [Willkommen zum IBM Cloud Satellite Workshop](README.md)
 * [1. Verbindung zum IBM Cloud Account](connect-to-ibm-cloud-account.md)
-* [2. Create Code Engine Project](create-code-engine-project.md)
+* [2. Anlegen einer IBM Cloud Satellite Location](create-code-engine-project.md)
 * [3. Create Frontend Application](create-frontend-application.md)
 * [4. Create and Connect Backend Service](create-and-connect-backend-service.md)
 * [5. Connect the IBM Cloud Object Storage with the Backend Service](use-ibm-cloud-object-storage-for-the-backend.md)
