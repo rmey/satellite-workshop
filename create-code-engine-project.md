@@ -1,13 +1,32 @@
----
-description: >-
-  Im Rahmen dieses Labs wird ein IBM Cloud Satellite Standort (sog.
-  Location/Lokation) erstellt. Ein IBM Cloud Satellite Standort ist ein Ort
-  ausserhalb eines IBM Cloud Rechenzentrums, z.B. ein kundenei
----
-
 # 2. Anlegen eines IBM Cloud Satellite Standorts
 
+{% hint style="info" %}
+Im Rahmen dieses Labs wird ein IBM Cloud Satellite Standort (sog. Location/Lokation) erstellt. Ein IBM Cloud Satellite Standort ist ein Ort ausserhalb eines IBM Cloud Rechenzentrums, z.B. ein kundeneigenes Rechenzentrum. Diese Satelliten-Lokation kann dann genutzt werden um dort IBM Cloud Services auszurollen (z.B. voll verwaltetes Red Hat OpenShift), nachdem die Lokation erstellt und konfiguriert ist... und genau das ist der Gegenstand dieses Labs.
+{% endhint %}
 
+1. In der IBM Cloud Console im Navigationsmenü ("Hamburger"-Menü) den Eintrag "Satellite" > "Overview/Übersicht" auswählen
+2. ![](<.gitbook/assets/image (40).png>)
+3. ![](<.gitbook/assets/image (36).png>)
 
+{% hint style="info" %}
+Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrundinformationen rund um IBM Cloud Satellite.
+{% endhint %}
 
+4\. Auf der Satellite Übersichtsseite den Menüeintrag "Locations/Standorte" auswählen. Die Standortseite gibt einen Überblick über alle bereits angelegten Standorte
+
+5\. Für diesen Workshop ist bereits (mindestens) ein Standort "sat-lab-location" vorkonfiguriert. Diesen Standort werden wir in einem späteren Lab benutzen.  Neben dem Lokationsnamen sind in der Standortseite wichtige weitere Informationen bzgl. eines Standorts aufgeführt (Zustand der Lokation, IBM Cloud RZ über das der Standort betankt und verwaltet wird, Ressourcengruppe, Anzahl der in der Lokation verfügbaren Hosts  und Erstellungsdatum).
+
+![](<.gitbook/assets/image (38).png>)
+
+6\. Auf der Standorte-Seite den (blauen) "Create location/Standort erstellen" Button drücken. Auf der Vorlagenseite finden sich einige vordefinierte Templates für unterschiedliche Standort-Zielinfrastrukturen, z.B. gängige Hyperscaler (AWS, Azure, GCP).
+
+![](<.gitbook/assets/image (39).png>)
+
+7\. Durch Selektieren des "Edit/Bearbeiten"-Eintrags gelangt man auf die Konfigurationsseite. Dort entsprechend folgende Attributwerte anpassen Name: sat-loc-\<Benutzerkennung oder -name> Managed from/Verwaltet über: Frankfurt (Hier sollte immer das am geografisch nächsten am Satellite-Standort (z.B. eigenes RZ) liegende IBM Rechenzentrum  ausgewählt werden)
+
+![](<.gitbook/assets/image (35).png>)
+
+8\. Durch Drücken des (blauen) "Create location/Standort erstellen" Buttons, wird die Lokation erzeugt. Nach kurzer Zeit wird im Browser automatisch auf die Satellite Lokationserstellungs-Seite weitergeleitet
+
+![](<.gitbook/assets/image (37).png>)
 
