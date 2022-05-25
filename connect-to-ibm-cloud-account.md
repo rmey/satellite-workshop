@@ -1,6 +1,6 @@
 # 1. Verbindung zum IBM Cloud Account
 
-### Vorraussetzungen
+### Voraussetzungen
 
 * Nutzername Password für IBM Cloud (temporäre Anmeldedaten werden bereitgestellt)
 * Laptop mit Browser like Chrome, Firefox
