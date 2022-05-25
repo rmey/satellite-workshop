@@ -17,4 +17,4 @@
 
 3\. Nach der Anmeldung werde Sie werden automatisch auf den Cloud Account im Screenshot weitergeleitet.
 
-![](<.gitbook/assets/image (36) (1) (1).png>)
+![](<.gitbook/assets/image (36) (1) (1) (1).png>)
