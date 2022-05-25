@@ -5,8 +5,8 @@ Im Rahmen dieses Labs wird ein IBM Cloud Satellite Standort (sog. Location/Lokat
 {% endhint %}
 
 1. In der IBM Cloud Console im Navigationsmenü ("Hamburger"-Menü) den Eintrag "Satellite" > "Overview/Übersicht" auswählen
-2. ![](<.gitbook/assets/image (40).png>)
-3. ![](<.gitbook/assets/image (36).png>)
+2. ![](<.gitbook/assets/image (40) (1).png>)
+3. ![](<.gitbook/assets/image (36) (1).png>)
 
 {% hint style="info" %}
 Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrundinformationen rund um IBM Cloud Satellite.
@@ -20,7 +20,7 @@ Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrund
 
 6\. Auf der Standorte-Seite den (blauen) "Create location/Standort erstellen" Button drücken. Auf der Vorlagenseite finden sich einige vordefinierte Templates für unterschiedliche Standort-Zielinfrastrukturen, z.B. gängige Hyperscaler (AWS, Azure, GCP).
 
-![](<.gitbook/assets/image (39).png>)
+![](<.gitbook/assets/image (39) (1).png>)
 
 7\. Durch Selektieren des "Edit/Bearbeiten"-Eintrags gelangt man auf die Konfigurationsseite. Dort entsprechend folgende Attributwerte anpassen Name: sat-loc-\<Benutzerkennung oder -name> Managed from/Verwaltet über: Frankfurt (Hier sollte immer das am geografisch nächsten am Satellite-Standort (z.B. eigenes RZ) liegende IBM Rechenzentrum  ausgewählt werden)
 
@@ -38,4 +38,10 @@ Der Standort selber ist fertig konfiguriert, der grüne Fortschrittsbalken "Crea
 
 10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden.
 
-\
+![](<.gitbook/assets/image (38).png>)
+
+11\. Im Popup-Screen "Generate Script/Script genieren" kann das generierte Script entsprechend durch Drücken des (blauen) "Download script/Script herunterladen"-Buttons auf den lokalen PC heruntergeladen werden
+
+{% hint style="info" %}
+Mit einem Editor kann das Script entsprechend inspiziert werden, es ist ein normales Unix/Linux-Shell-Script. Dieses Shell-Script muss nun auf allen Hosts/Servern, die zu dieser Lokation gehören sollen ausgeführt werden, um diese dem Standort zuzuordnen. In der Praxis wird dieses Script in das entsprechende Provisionierungsverfahren der Hosts/Server eingebunden (z.B. Ansible, VMware-Templates, etc).
+{% endhint %}
