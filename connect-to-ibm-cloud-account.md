@@ -13,7 +13,7 @@
 2. Geben Sie bei der Anmeldemaske Ihren Nutzernamen und Password ein.\
 
 
-![](<.gitbook/assets/image (35) (1).png>)
+![](<.gitbook/assets/image (35) (1) (1).png>)
 
 3\. Nach der Anmeldung werde Sie werden automatisch auf den Cloud Account im Screenshot weitergeleitet.
 
