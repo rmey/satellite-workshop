@@ -9,7 +9,7 @@ In dieser Übung lernen Sie, wie Sie eine Applikation in einem RedHat Openshift 
 1. Öffnen Sie hierzu auf der linken oberen Seite das "IBM Cloud Menü". \
    ![](<.gitbook/assets/image (41) (1) (1).png>)
 2. Navigieren Sie zu "Satellite" -> "Lokationen".\
-   &#x20;![](<.gitbook/assets/image (45) (1) (1).png>)
+   &#x20;![](<.gitbook/assets/image (45) (1) (1) (1).png>)
 3. Dabei sollte eine Liste der verschiedenen IBM Cloud Satellite Lokationen erscheinen. Öffnen Sie mit einem Klick die "sat-lab-location"-Lokation.\
    ![](<.gitbook/assets/image (42) (1).png>)
 4. Eine Übersicht zeigt die wichtigsten Informationen Ihrer IBM Cloud Satellite Lokation. Beispielsweise den Status, die Anzahl der zugewiesenen Hosts, den verwaltenden Standort (z.B. Dallas oder Frankfurt). Um eine detaillierte Ansicht der verschiedenen zugewiesenen Hosts zu überblicken, öffnen Sie auf der linken Seite den Menü-Punkt "Hosts".\
@@ -33,10 +33,10 @@ In dieser Übung lernen Sie, wie Sie eine Applikation in einem RedHat Openshift 
 
 
 9\. In der Developer-Sicht werden die verschiedenen Projekte dargestellt. Dabei ist bei Openshift jede Anwendung/Applikation einem Projekt zugeordnet. Für unsere Anwendung müssen wir nun ein neues Projekt erstellen. Klicken Sie hierzu auf "Create a project".  Alternativ können Sie unterhalb des Headers auf "Project" klicken. Eine Auflistung der verschiedenen Projekte erscheint und mit dem Button "Create project" können Sie ebenfalls ein neues Projekt anlegen. \
-![](<.gitbook/assets/image (36).png>)
+![](<.gitbook/assets/image (36) (1).png>)
 
 10\. Geben Sie nun einen einzigartigen Namen für Ihr Projekt ein und klicken auf den Button "Create". \
-![](<.gitbook/assets/image (46).png>)
+![](<.gitbook/assets/image (46) (1).png>)
 
 11\. Openshift bietet die Möglichkeit auf verschiedene Art und Weisen eine Applikation zu importieren bzw. zu deployen. In unserem Lab werden wir den Applikations-Code aus einem GitHub Repository ziehen und verwenden.\
 \
@@ -50,12 +50,12 @@ Dabei handelt es sich um eine einfache NodeJS Applikation mit einem Web-Frontend
 
 
 13\. Wenn Sie in der Übersicht weiter nach unten scrollen, können Sie zusätzlich den Namen der Applikation anpassen. Bitte vergeben sie einen eindeutigen Namen, z.B. durch anhängen eines Kürzels Ihres Namens.  Klicken Sie auf den "Create"-Button, um nun mit dem Deployen der Applikation zu beginnen.\
-![](<.gitbook/assets/image (37).png>)\
+![](<.gitbook/assets/image (37) (1).png>)\
 \
 14\. Nun startet das automatische Deployment der Applikation. Es wird der Code aus dem Github Repository gezogen, ein Container erstellt und dieser Container im Openshift Cluster zum Laufen gebracht. Außerdem wird gleich eine Route für die Applikation erstellt. Sie können den Prozess beobachten in dem Sie auf das "NodeJS"-Logo in der Übersicht klicken. Bitte beachten Sie, dass dieser Prozess ein paar Minuten dauern könnte.\
 ![](<.gitbook/assets/image (47) (1).png>)\
 \
-![](<.gitbook/assets/image (45).png>)
+![](<.gitbook/assets/image (45) (1).png>)
 
 ![](<.gitbook/assets/image (48) (1).png>)
 
