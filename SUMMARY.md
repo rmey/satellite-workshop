@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Welcome to our IBM Cloud Code Engine Workshop](README.md)
-* [1. Connect to IBM Cloud Account for Workshop](connect-to-ibm-cloud-account.md)
+* [Willkommen zum IBM Cloud Satellite Workshop](README.md)
+* [1. Verbindung zum IBM Cloud Account](connect-to-ibm-cloud-account.md)
 * [2. Create Code Engine Project](create-code-engine-project.md)
 * [3. Create Frontend Application](create-frontend-application.md)
 * [4. Create and Connect Backend Service](create-and-connect-backend-service.md)
