@@ -36,4 +36,6 @@ Der Standort selber ist fertig konfiguriert, der grüne Fortschrittsbalken "Crea
 
 9\. Durch Selektieren des (blauen) "Next/Weiter"-Buttons gelangt man auf die "Attach Hosts.../Hosts an Ihren Standort anhängen..."-Seite
 
-10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden.\
+10\. Dort kann durch Drücken des (blauen) "Generate Script/Script genieren"-Buttons ein  Script erzeugt werden.
+
+\
