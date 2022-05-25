@@ -63,7 +63,7 @@ Dabei handelt es sich um eine einfache NodeJS Applikation mit einem Web-Frontend
 
 {% hint style="info" %}
 Das Deployment ist abgeschlossen, sobald die Applikation in einem Pod läuft und der Status auf "Running" ist.\
-![](<.gitbook/assets/image (39).png>)
+![](<.gitbook/assets/image (39) (1).png>)
 {% endhint %}
 
 \
