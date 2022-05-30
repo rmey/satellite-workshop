@@ -38,7 +38,7 @@ Zu einer Lokation können jederzeit neue Hosts hinzugefügt werden oder alte Hos
 ![](<.gitbook/assets/image (48).png>)
 
 6\. Unter Link Endpoints können wir die Endpunkte der Satellite Lokation on-prem und in der IBM Cloud Control Region verwalten. Ebenfalls können Monitoring Dashboard aufgerufen werden, um die Verbindungen und Zugriffe zu überwachen bzw. zu protokollieren.\
-![](<.gitbook/assets/image (47).png>)\
+![](<.gitbook/assets/image (51).png>)\
 7\. Im folgenden Schritt wollen wir sehen wie ein neuer Cluster mit Satellite konfiguriert wird. Das anlegen eines neuen Clusters kann nicht parallel für alle Teilnehmer verlaufen, nur sequentiell, weshalb wir diesen Schritt nur illustrieren (der Cluster wäre ungefähr nach 15 min provisioniert):\
 Wir navigieren zu dem Cluster Menu von IBM Cloud Satellite:\
 ![](<.gitbook/assets/image (42).png>)\
