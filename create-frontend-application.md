@@ -7,7 +7,7 @@ In der vorherigen Übungen haben wir eine neu Satellite Lokation erstellt, nun w
 1. Im Cloud Menü öffnen wir die IBM Cloud Satellite Lokationen, es werden mehrere Lokationen angezeigt:\
    <img src=".gitbook/assets/image (50).png" alt="" data-size="original">\
 
-2. In der Liste öffnen wir durch Klick die sat-lab-location.\
+2. In der Liste öffnen wir durch Klick die sat-lab-location-new.\
    <img src=".gitbook/assets/image (45).png" alt="" data-size="original">
 3. In der Überblicksseite können wir verschieden Attribute der Satellite Lokation einsehen u. A.\
    \* Lokations ID\
