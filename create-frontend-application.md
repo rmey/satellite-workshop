@@ -5,10 +5,10 @@
 In der vorherigen Übungen haben wir eine neu Satellite Lokation erstellt, nun wollen wir mit einer existierenden Satellite Lokation arbeiten bzw. die Möglichkeiten kennenlernen diese zu verwalten und zeigen wie ein neuer OpenShift Cluster für IBM Cloud Satellite angelegt wird.
 
 1. Im Cloud Menü öffnen wir die IBM Cloud Satellite Lokationen, es werden mehrere Lokationen angezeigt:\
-   <img src=".gitbook/assets/image (50) (1).png" alt="" data-size="original">\
+   <img src=".gitbook/assets/image (50) (1) (1).png" alt="" data-size="original">\
 
 2. In der Liste öffnen wir durch Klick die sat-lab-location-new.\
-   ![](<.gitbook/assets/image (50).png>)
+   ![](<.gitbook/assets/image (50) (1).png>)
 3. In der Überblicksseite können wir verschieden Attribute der Satellite Lokation einsehen u. A.\
    \* Lokations ID\
    \* Management Region der IBM Cloud\

@@ -16,7 +16,7 @@ In dieser Übung lernen Sie, wie Sie eine Applikation in einem RedHat Openshift 
    ![](<.gitbook/assets/image (52).png>)&#x20;
 5. Die dargestellte Liste zeigt alle Hosts, die der Lokation zugeordnet sind. Dabei sind weitere Informationen pro Hosts zu finden sowie die Zugehörigkeit. In der Übersicht sind die Hosts der Controlplane zuerst gelistet. Darauf folgend die Hosts, die einem Openshift-Cluster zugeordnet sind. Bitte beachten Sie, dass möglicherweise erst nach einer kurzen Ladezeit die Links (in blau gefärbt) zu den einzelnen Clustern erscheinen. Öffnen Sie mit einem Klick ihren zugeordneten Cluster. \
    ![](<.gitbook/assets/image (53).png>)\
-   ![](<.gitbook/assets/image (47) (1) (1).png>)
+   ![](<.gitbook/assets/image (50).png>)
 6. Ein Dashboard des RedHat Openshift Clusters wird geöffnet. Dort sind wichtige Metriken zu Ihrem Cluster zu sehen, wie beispielsweise die Anzahl der Workernodes, die Clusterversion sowie Netzwerkbeschreibungen. Um nun tiefer in Ihr Cluster "einzusteigen" öffnen Sie die Openshift Webkonsole in dem Sie auf den blauen Button oben rechts klicken. Bitte beachten Sie, dass möglicherweise das Pop-Up Fenster blockiert wird und Sie es in Ihrem Browser freigeben müssen.\
    \
    &#x20;
