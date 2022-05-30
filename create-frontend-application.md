@@ -21,8 +21,8 @@ In der vorherigen Übungen haben wir eine neu Satellite Lokation erstellt, nun w
    <img src=".gitbook/assets/image (41).png" alt="" data-size="original">
 
 {% hint style="info" %}
-Hosts können verschiedene Funktionen innerhalb einer Satellite Lokation haben. Für die Satellite Control Plane werden ein mindestens 3 bzw. Vielfaches von 3 benötigt um grundlegende Satellite Funktionen zu ermöglichen. Die Control Plane ist quasi die lokale Steuerzentrale einer Lokation und beinhaltet z. B. die Satellite Link Services oder die Master von OpenShift Clustern. Die Control Plane sollte hochverfügbar auf mehrere Racks/Zonen je nach Provider aufgeteilt werden. Die Controlplane nutzt Hypershift um mehrere Master in den Control Plane Host zu managen. In unserem Beispiel mit 9 Maschinen mit jeweils 4vCPU/16GB RAM in der Controlplane können wir\
-bis zu 8 Cluster mit 40 Worker oder 140 Worker mit 3 Clustern zu je 60 Worker per OpenShift Cluster verwalten. Jeder Cluster hat in der Controlplane mehrere Master, so das beim Ausfall einer Zone, es zu keinen Ausfall der Services kommt. &#x20;
+Hosts können verschiedene Funktionen innerhalb einer Satellite Lokation haben. Für die Satellite Control Plane werden ein mindestens 3 bzw. Vielfaches von 3 benötigt um grundlegende Satellite Funktionen zu ermöglichen. Die Control Plane ist quasi die lokale Steuerzentrale einer Lokation und beinhaltet z. B. die Satellite Link Services oder die Master von OpenShift Clustern. Die Control Plane sollte hochverfügbar auf mehrere Racks/Zonen je nach Provider aufgeteilt werden. Die Controlplane nutzt Hypershift um mehrere Master in den Control Plane Host zu managen. In unserem Beispiel mit 6 Maschinen mit jeweils 4vCPU/16GB RAM in der Controlplane können wir\
+bis zu 5 clusters mit je 20 Workernodes oder 80 worker über 2 Clusterverwalten. Jeder Cluster hat in der Controlplane mehrere Master, so das beim Ausfall einer Zone, es zu keinen Ausfall der Services kommt. &#x20;
 
 \
 Hosts können neben der Control Plane auch Satellite enabled Service Instanzen zugeteilt werden, so z. B.\
