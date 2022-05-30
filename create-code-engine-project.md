@@ -20,7 +20,7 @@ Die Satellite-Übersichtsseite enthält viele gute Links, Videos und Hintergrund
 
 6\. Auf der Standorte-Seite den (blauen) "Create location/Standort erstellen" Button drücken. Auf der Vorlagenseite finden sich einige vordefinierte Templates für unterschiedliche Standort-Zielinfrastrukturen, z.B. gängige Hyperscaler (AWS, Azure, GCP).
 
-![](<.gitbook/assets/image (39) (1) (1) (1).png>)
+![](<.gitbook/assets/image (39) (1) (1) (1) (1).png>)
 
 7\. Durch Selektieren des "Edit/Bearbeiten"-Eintrags gelangt man auf die Konfigurationsseite. Dort entsprechend folgende Attributwerte anpassen Name: sat-loc-\<Benutzerkennung oder -name> Managed from/Verwaltet über: Frankfurt (Hier sollte immer das am geografisch nächsten am Satellite-Standort (z.B. eigenes RZ) liegende IBM Rechenzentrum  ausgewählt werden)
 

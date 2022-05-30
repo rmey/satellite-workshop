@@ -13,7 +13,7 @@ In dieser Übung lernen Sie, wie Sie eine Applikation in einem RedHat Openshift 
 3. Dabei sollte eine Liste der verschiedenen IBM Cloud Satellite Lokationen erscheinen. Öffnen Sie mit einem Klick die "sat-lab-location"-Lokation.\
    ![](<.gitbook/assets/image (42) (1).png>)
 4. Eine Übersicht zeigt die wichtigsten Informationen Ihrer IBM Cloud Satellite Lokation. Beispielsweise den Status, die Anzahl der zugewiesenen Hosts, den verwaltenden Standort (z.B. Dallas oder Frankfurt). Um eine detaillierte Ansicht der verschiedenen zugewiesenen Hosts zu überblicken, öffnen Sie auf der linken Seite den Menü-Punkt "Hosts".\
-   ![](<.gitbook/assets/image (43) (1) (1).png>)&#x20;
+   ![](<.gitbook/assets/image (43) (1) (1) (1).png>)&#x20;
 5. Die dargestellte Liste zeigt alle Hosts, die der Lokation zugeordnet sind. Dabei sind weitere Informationen pro Hosts zu finden sowie die Zugehörigkeit. In der Übersicht sind die Hosts der Controlplane zuerst gelistet. Darauf folgend die Hosts, die einem Openshift-Cluster zugeordnet sind. Bitte beachten Sie, dass möglicherweise erst nach einer kurzen Ladezeit die Links (in blau gefärbt) zu den einzelnen Clustern erscheinen. Öffnen Sie mit einem Klick ihren zugeordneten Cluster. \
    ![](<.gitbook/assets/image (40) (1) (1).png>)\
    ![](<.gitbook/assets/image (47) (1) (1).png>)
@@ -36,7 +36,7 @@ In dieser Übung lernen Sie, wie Sie eine Applikation in einem RedHat Openshift 
 ![](<.gitbook/assets/image (36) (1).png>)
 
 10\. Geben Sie nun einen einzigartigen Namen für Ihr Projekt ein und klicken auf den Button "Create". \
-![](<.gitbook/assets/image (46) (1).png>)
+![](<.gitbook/assets/image (46) (1) (1).png>)
 
 11\. Openshift bietet die Möglichkeit auf verschiedene Art und Weisen eine Applikation zu importieren bzw. zu deployen. In unserem Lab werden wir den Applikations-Code aus einem GitHub Repository ziehen und verwenden.\
 \
@@ -57,13 +57,13 @@ Dabei handelt es sich um eine einfache NodeJS Applikation mit einem Web-Frontend
 \
 ![](<.gitbook/assets/image (45) (1).png>)
 
-![](<.gitbook/assets/image (48) (1).png>)
+![](<.gitbook/assets/image (48) (1) (1).png>)
 
 15\. Wenn Die Anwendung fertig deployt ist kann diese in der Topology Sicht geöffnet werden. Sobald dies erfolgt ist, können Sie nun die Applikation in Ihrem Browser öffnen. Klicken Sie hierzu auf den "Link"-Button oder weiter unten auf den Link der Route.&#x20;
 
 {% hint style="info" %}
 Das Deployment ist abgeschlossen, sobald die Applikation in einem Pod läuft und der Status auf "Running" ist.\
-![](<.gitbook/assets/image (39) (1).png>)
+![](<.gitbook/assets/image (39) (1) (1).png>)
 {% endhint %}
 
 \
